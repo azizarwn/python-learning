@@ -1,3 +1,5 @@
+# Here what i learned outside of class hours
+
 print("Hello")
 print("Hello " * 3)
 print("Hello" + " World")
@@ -6,6 +8,7 @@ name = "Lulu"
 name = 3
 
 print(name)
+
 
 
 # check version python
