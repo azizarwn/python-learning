@@ -1,6 +1,10 @@
-def main():
-    print("Hello from python-learning!")
+from fastapi import FastAPI
 
+app = FastAPI(
+    # docs_url=None,  # here to hide docs path
+    redoc_url=None,
+)
 
-if __name__ == "__main__":
-    main()
+@app.get(path="/hello")
+def say_hello():
+    return {"message": "Hello, World!"}
